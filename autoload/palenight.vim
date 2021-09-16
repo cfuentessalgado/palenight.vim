@@ -4,9 +4,9 @@ let s:overrides = get(g:, "palenight_color_overrides", {})
 " `s:colors.black`, where `number * 12` is the alpha value of the white mask
 
 let s:colors = {
-      \ "red": get(s:overrides, "red", { "gui": "#fb4934", "cterm": "167", "cterm16": "1" }),
-      \ "light_red": get(s:overrides, "light_red", { "gui": "#9d0006", "cterm": "88", "cterm16": "1" }),
-      \ "dark_red": get(s:overrides, "dark_red", { "gui": "#fb4934", "cterm": "167", "cterm16": "9" }),
+      \ "red": get(s:overrides, "red", { "gui": "#ff5370", "cterm": "204", "cterm16": "1" }),
+      \ "light_red": get(s:overrides, "light_red", { "gui": "#ff869a", "cterm": "204", "cterm16": "1" }),
+      \ "dark_red": get(s:overrides, "dark_red", { "gui": "#be5046", "cterm": "196", "cterm16": "9" }),
       \ "green": get(s:overrides, "green", { "gui": "#C3E88D", "cterm": "114", "cterm16": "2" }),
       \ "yellow": get(s:overrides, "yellow", { "gui": "#ffcb6b", "cterm": "180", "cterm16": "3" }),
       \ "dark_yellow": get(s:overrides, "dark_yellow", { "gui": "#F78C6C", "cterm": "173", "cterm16": "11" }),
